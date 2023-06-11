@@ -90,7 +90,9 @@ header {
   text-align: center;
   cursor: pointer;
 }
-
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgb(157, 255, 0),0 17px 50px 0 rgb(204, 255, 0);
+}
 button[disabled] {
   cursor: default;
   background: #c0c7cf;
