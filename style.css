@@ -16,6 +16,9 @@ body {
   font-family: sans-serif;
   background-color: #f9fbfd;
 }
+h2 {
+  text-align: center;
+}
 
 .wrapper {
   padding-top: 30px;
