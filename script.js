@@ -1,4 +1,15 @@
+ // all variables 
+  //lover
+  //upper
+  //numbers
+  //specials charakters
+  var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
+  var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var numericChars = "0123456789";
+  var specialChars = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
+
 //ask the lenght of password
+//using windows prompt
 // Function to generate a random password 
 function generatePassword() {
   var length = prompt("Enter the length of the password (8-128 characters):");
@@ -20,15 +31,7 @@ function generatePassword() {
     return;
   }
 
-  // all variables 
-  //lover
-  //upper
-  //numbers
-  //specials charakters
-  var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
-  var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var numericChars = "0123456789";
-  var specialChars = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
+ 
 
   var allChars = "";
   var password = "";
@@ -48,6 +51,7 @@ function generatePassword() {
   }
 
   // Generate the password
+  //using loop randomly adding password
   for (var i = 0; i < length; i++) {
     var randomIndex = Math.floor(Math.random() * allChars.length);
     password += allChars[randomIndex];
