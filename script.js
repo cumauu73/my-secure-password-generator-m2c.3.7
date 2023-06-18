@@ -60,6 +60,10 @@ function generatePassword() {
   
   document.getElementById("password").value = password;
 }
+
+  //  // after generate possword you make copy button
+  //  var copyButton = document.getElementById("copy");
+  //  copyButton = false;
 // event listener to generate button
 // Call the generatePassword function when the button is clicked
 document.getElementById("generate").addEventListener("click", generatePassword);
