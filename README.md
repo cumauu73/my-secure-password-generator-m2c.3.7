@@ -2,8 +2,6 @@
 
 The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
 
-## User Story
-
 
 ## Acceptance Criteria
 
@@ -29,12 +27,25 @@ THEN the password is either displayed in an alert or written to the page
 
 The following image shows the web application's appearance and functionality:
 
+The Password Generator application displays a red button to "Generate Password"
 ![The Password Generator application displays a red button to "Generate Password".](./Assets/screenshots/howitlooks.PNG)
+
+when click the button asking lenght of password.
 ![when click the button asking lenght of password.](./Assets/screenshots/lenghtofpassword.PNG)
+
+asking include uppercase.
 ![asking include uppercase.](./Assets/screenshots/doyouwannauppercase.PNG)
+
+asking include lovercase.
 ![asking include lovercase.](./Assets/screenshots/doyouwannalowercase.PNG)
+
+asking include numeraticals.
 ![asking include numeraticals.](./Assets/screenshots/doyouwannanubers.PNG)
+
+asking includes special charakters.
 ![asking includes special charakters.](./Assets/screenshots/doyuowantspecialchar.PNG)
+
+finally generted passport disply.
 ![finally generted passport disply.](./Assets/screenshots/password.PNG)
 
 
