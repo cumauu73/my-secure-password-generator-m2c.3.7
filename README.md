@@ -25,6 +25,8 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Mock-Up
 
+this is live link for the page : https://cumauu73.github.io/password-generator-module2-challenge/
+
 The following image shows the web application's appearance and functionality:
 
 The Password Generator application displays a red button to "Generate Password"
