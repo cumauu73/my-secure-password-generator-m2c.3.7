@@ -25,7 +25,7 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Mock-Up
 
-this is live link for the page : https://cumauu73.github.io/password-generator-module2-challenge/
+this is live link for the page : https://cumauu73.github.io/my-secure-password-generator-m2c.3.7/
 
 The following image shows the web application's appearance and functionality:
 
